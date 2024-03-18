@@ -1,0 +1,17 @@
+#path: C:/Users/domin/OneDrive/Pulpit/Python/DetectionShapes/dataset
+path: C:/Users/domin/OneDrive/Pulpit/Python/DetectionShapes
+
+
+train:
+  images: images/train
+  labels: labels/train
+
+#val:
+#  images: images/val
+#  labels: labels/val
+
+# Classes
+names:
+  0: circle
+  1: square
+  2: triangle
