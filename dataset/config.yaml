@@ -1,0 +1,16 @@
+#path: C:\tmp\dataset
+path: C:\Users\domin\OneDrive\Pulpit\Python\DetectionShapes\dataset
+
+train:
+  train\images
+#val:
+#  train\images
+val:
+  val\images
+
+
+# Classes
+names:
+  0: circle
+  1: square1
+  2: triangle
