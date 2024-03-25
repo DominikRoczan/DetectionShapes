@@ -1,5 +1,6 @@
 #path: C:\tmp\dataset
-path: C:\Users\domin\OneDrive\Pulpit\Python\DetectionShapes\dataset
+#path: C:\Users\domin\OneDrive\Pulpit\Python\DetectionShapes\dataset
+path: E:\USERS\dominik.roczan\PycharmProjects\DetectionShapes\dataset
 
 train:
   train\images

@@ -1,0 +1,30 @@
+Index: config.yaml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>#path: C:/Users/domin/OneDrive/Pulpit/Python/DetectionShapes/dataset\r\npath: C:/Users/domin/OneDrive/Pulpit/Python/DetectionShapes\r\n\r\n\r\ntrain:\r\n  images: images/train\r\n  labels: labels/train\r\n\r\n#val:\r\n#  images: images/val\r\n#  labels: labels/val\r\n\r\n# Classes\r\nnames:\r\n  0: circle\r\n  1: square\r\n  2: triangle\r\n
+===================================================================
+diff --git a/config.yaml b/config.yaml
+--- a/config.yaml	
++++ b/config.yaml	
+@@ -1,14 +1,15 @@
+ #path: C:/Users/domin/OneDrive/Pulpit/Python/DetectionShapes/dataset
+-path: C:/Users/domin/OneDrive/Pulpit/Python/DetectionShapes
++#path: C:/Users/domin/OneDrive/Pulpit/Python/DetectionShapes
++path: E:/USERS/dominik.roczan/PycharmProjects/DetectionShapes
+ 
+ 
+ train:
+-  images: images/train
+-  labels: labels/train
++  images: dataset/images/train
++  labels: dataset/labels/train
+ 
+-#val:
+-#  images: images/val
+-#  labels: labels/val
++val:
++  images: dataset/images/val
++  labels: dataset/labels/val
+ 
+ # Classes
+ names:
